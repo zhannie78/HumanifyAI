@@ -22,7 +22,7 @@ const HeroSection: React.FC = () => {
               <Button 
                 size="lg"
                 className="bg-white text-primary-600 hover:bg-gray-100"
-                onClick={() => navigate('/signup')}
+                onClick={() => navigate('/auth')}
                 rightIcon={<ArrowRight size={18} />}
               >
                 Try for Free
