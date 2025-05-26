@@ -10,6 +10,7 @@ import ProjectDetailPage from './pages/ProjectDetailPage';
 import PaymentPage from './pages/PaymentPage';
 import Auth from './pages/Auth';
 import { UserMenu } from './components/auth/UserMenu';
+import { useAuth } from '@/hooks/useAuth';
 
 const queryClient = new QueryClient();
 
